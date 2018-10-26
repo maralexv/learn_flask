@@ -6,13 +6,58 @@
 </head>
 
 <body>
-	<form action="http://www.google.com" method="get" accept-charset="utf-8">
-		<label for="emailfield">Email:</label>
-		<input id="emailfield" type="email" name="useremail" value="" placeholder="Please Provide Your Email">
-        <br>
-		<label for="passwordfield">Pasword:</label>
-		<input id="passwordfield" type="password" name="pass" value="" placeholder="Type in Your Password">
-        <input type="submit" name="" value="Submit">
-	</form>
+
+	<!-- Simple Input Form with E-Mail and Password fields -->
+	<p>Simple Form:
+		<h1>Log-in</h1>
+		<form action="http://www.google.com" method="get" accept-charset="utf-8">
+			<label for="emailfield">Email:</label>
+			<input id="emailfield" type="email" name="useremail" value="" placeholder="Please Provide Your Email">
+	        <br>
+			<label for="passwordfield">Pasword:</label>
+			<input id="passwordfield" type="password" name="pass" value="" placeholder="Type in Your Password">
+	        <input type="submit" name="" value="Submit">
+		</form>
+	</p>
+
+	<!-- Radio Form - Simple Selection -->
+	<p>Radio Form:
+		<h2>Do you have a dog?</h2>
+		<form method="get" accept-charset="utf-8">
+			<label for="yes">Yes
+				<input type="radio" id="yes" name="check_dog" value="Yes">
+			</label>
+			<label for="no">No
+				<input type="radio" id="no" name="check_dog" value="No">
+			</label>
+		</form>
+	</p>
+
+	<!-- Drop Down Menu Form -->
+	<p>Drop Down Menu Form:
+		<h3>How Clean is Your House?</h3>
+		<select name="stars">
+			<option value="3">Great</option>
+			<option value="2">Good</option>
+			<option value="1">So-so</option>
+		</select>
+	</p>
+
+	<!-- Multi-Select Menu Form -->
+	<p>Multi-Select Menu Form:
+		<h3>What food do you like?</h3>
+		<select name="rating" multiple="">
+			<option value="3">Fruits</option>
+			<option value="2">Veggies</option>
+			<option value="1">Meats</option>
+		</select>
+	</p>
+
+	<!-- Text Area -->
+	<p>Any Other Comments Form:</p>
+		<textarea name="free-text" rows="6" cols="50"></textarea>
+	<br>
+	<input type="submit" name="submit" value="Submit">
+
 </body>
 </html>

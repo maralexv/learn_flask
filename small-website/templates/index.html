@@ -1,0 +1,12 @@
+<!-- HOME PAGE HTML -->
+{%extends "base.html"%}
+
+{%block content%}
+
+<div class="jumbotron">
+  <h1>Welcome to Home Page</h1>
+  <h2>Do you want to sign-up for our Newsletter?</h2>
+  <a href="{{url_for('sign_up')}}" title="">Sign up Here!</a>
+</div>
+
+{%endblock%}

@@ -1,0 +1,12 @@
+<!-- USER HTML -->
+{%extends "base.html"%}
+
+{%block content%}
+<div class="container">
+  <h1>Hello, {{name}}!</h1>
+  <p>
+    <img src="{{url_for('static',filename='pic-of-man.jpg')}}" alt="picture of the user">
+  </p>
+</div>
+
+{%endblock%}

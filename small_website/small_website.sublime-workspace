@@ -1,0 +1,419 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rout",
+				"route\tfunction"
+			],
+			[
+				"route",
+				"route\tFlask"
+			],
+			[
+				"re",
+				"render_template\tfunction"
+			],
+			[
+				"html",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"va",
+				"value\tAttr"
+			],
+			[
+				"cols",
+				"cols\tAttr"
+			],
+			[
+				"r",
+				"rows\tAttr"
+			],
+			[
+				"acc",
+				"accept-charset\tAttr"
+			],
+			[
+				"form",
+				"form\tTag"
+			],
+			[
+				"tex",
+				"text-justify"
+			],
+			[
+				"tet",
+				"text-justify"
+			],
+			[
+				"te",
+				"text-white"
+			],
+			[
+				"text-",
+				"text-justify"
+			],
+			[
+				"text",
+				"text-justify"
+			],
+			[
+				"a",
+				"alt\tAttr"
+			],
+			[
+				"con",
+				"container-fluid"
+			],
+			[
+				"mt-",
+				"mt-2"
+			],
+			[
+				"mt",
+				"mt-4"
+			],
+			[
+				"float-",
+				"float-right"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"li",
+				"linkedin"
+			],
+			[
+				"car",
+				"card-text"
+			],
+			[
+				"p",
+				"p-2"
+			],
+			[
+				"img",
+				"img-fluid"
+			],
+			[
+				"given",
+				"given_number"
+			],
+			[
+				"it",
+				"item"
+			],
+			[
+				"number",
+				"number_of_primes"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"w",
+				"word"
+			],
+			[
+				"my",
+				"my_json_file"
+			],
+			[
+				"clos",
+				"closed"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Build: Cancel"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/first-lessons/basic_page/mypage1.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/first-lessons/static-website/mypage2.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/first-lessons/mypage1.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/small-website/templates/user.html",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/small-website/small-website.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/small-website/templates/base.html",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/small-website/templates/index.html",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/small-website/templates/sign_up.html",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/small-website/templates/thank_you.html",
+		"/Users/Alex/Desktop/test.html",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/small website/small-website.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/small website/templates/home.html",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/small website/templates/new.html",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Flask-Bootcamp-master/03-Template-Basics/templates/04-Home.html",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/mypage2.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/decorators.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/flask_exercises/learn_flask/my1.html",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/learn_flask/my2.html",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/learn_flask/master.css",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/Learn_Flask/learn_flask/my-form.html",
+		"/Users/Alex/Documents/myfile.html",
+		"/Users/Alex/Documents/myfile1.html",
+		"/Users/Alex/Documents/base1.html",
+		"/Users/Alex/OneDrive - solleqt/__PROJECTS/LDS/MARCOMMS/ASSETS/Landing Pages/LPs/lp-refract/lp-refract.html",
+		"/Users/Alex/OneDrive - solleqt/__PROJECTS/LDS/MARCOMMS/ASSETS/Landing Pages/LPs/lp-copper/lp-copper.html",
+		"/Users/Alex/OneDrive - solleqt/__PROJECTS/LDS/MARCOMMS/ASSETS/Landing Pages/LPs/lp-potass/lp-potass.html",
+		"/Users/Alex/OneDrive - solleqt/__PROJECTS/LDS/MARCOMMS/ASSETS/Landing Pages/LPs/lp-coal/lp-coal.html",
+		"/Users/Alex/OneDrive - solleqt/__PROJECTS/LDS/MARCOMMS/ASSETS/Landing Pages/LPs/lp-iron/lp-iron.html",
+		"/Users/Alex/Google Drive/_DOCUMENTS/_SOLLEQT/solleqt.com/www/get-in-touch copy.html",
+		"/Users/Alex/Google Drive/_DOCUMENTS/_SOLLEQT/solleqt.com/www/get-in-touch.html",
+		"/Users/Alex/Google Drive/_DOCUMENTS/_SOLLEQT/solleqt.com/www/blogs/blog-template.html",
+		"/Users/Alex/Google Drive/_DOCUMENTS/_SOLLEQT/solleqt.com/www/insights.html",
+		"/Users/Alex/Google Drive/_DOCUMENTS/_SOLLEQT/solleqt.com/www/what-we-do.html",
+		"/Users/Alex/Google Drive/_DOCUMENTS/_SOLLEQT/solleqt.com/www/index.html",
+		"/Users/Alex/Google Drive/_DOCUMENTS/_SOLLEQT/solleqt.com/www/how-we-can-help.html",
+		"/Users/Alex/Google Drive/_DOCUMENTS/_SOLLEQT/solleqt.com/www/about.html",
+		"/Users/Alex/Google Drive/_DOCUMENTS/_SOLLEQT/solleqt.com/www/thank-you.html",
+		"/Users/Alex/Google Drive/_DOCUMENTS/_SOLLEQT/solleqt.com/www/form-data.html",
+		"/Users/Alex/Google Drive/_DOCUMENTS/_SOLLEQT/solleqt.com/www/gradient.html",
+		"/Users/Alex/Desktop/LPs/lp-iron/lp-iron.html",
+		"/Users/Alex/Desktop/LP/lp-coal.html",
+		"/Users/Alex/Desktop/LP/index.html",
+		"/Users/Alex/Desktop/LP/lp-css.css",
+		"/Users/Alex/Desktop/index.html",
+		"/Users/Alex/Desktop/prime.py",
+		"/Users/Alex/Desktop/practice.py",
+		"/Users/Alex/Desktop/task.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/10 file io.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/10 file i:o.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/10 basic excercises.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/4 lists tuleps dictionaries.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/4 lists.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/9 formating print.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/8 list comprehension.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/9.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/8.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/7.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/7.1.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/6.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/5.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/4.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/3.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/10.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/2.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Papa_Python/1.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Python Books/Learnig Python/lp5e-code-1.0-jun1813/code/mylist.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Python Books/Learnig Python/lp5e-code-1.0-jun1813/code/threenames.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Python Books/Learnig Python/lp5e-code-1.0-jun1813/code/rangetest.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Python Books/Learnig Python/lp5e-code-1.0-jun1813/code/script.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Python Books/Learnig Python/lp5e-code-1.0-jun1813/code/script1.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Python Books/Learnig Python/lp5e-code-1.0-jun1813/code/timeseqs_timer3.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Python Books/Learnig Python/lp5e-code-1.0-jun1813/code/testmixin.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Python Books/Learnig Python/lp5e-code-1.0-jun1813/code/squares.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Python Books/Learnig Python/lp5e-code-1.0-jun1813/code/commuter.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Python Books/Learnig Python/lp5e-code-1.0-jun1813/code/parrot.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Python Books/Learnig Python/lp5e-code-1.0-jun1813/code/lunch.py",
+		"/Users/Alex/Dropbox/THEO_DAD_SHARE/Python Books/Learnig Python/lp5e-code-1.0-jun1813/code/a.py",
+		"/Users/Alex/Desktop/MAYA Online Analyser - Laser Distance Spectrometry.html",
+		"/Users/Alex/Google Drive/_DOCUMENTS/_SOLLEQT/solleqt.com/www/bootstrap/css/bootstrap-grid.css",
+		"/Users/Alex/Downloads/my.css",
+		"/Users/Alex/Downloads/CS POSM _ Glassware Request Process Map.svg",
+		"/Users/Alex/OneDrive - solleqt/__PROJECTS/ANADOLU EFES CIC/CIC/_DELIVERABLES/CIC PILOT/L4 BPMs/TS Outbound/SVG Files/TS Order Taking Process.svg",
+		"/Users/Alex/OneDrive - solleqt/__PROJECTS/ANADOLU EFES CIC/CIC/_DELIVERABLES/CIC PILOT/L4 BPMs/TS Outbound/SVG Files/TS Management Process Map.svg",
+		"/Users/Alex/Google Drive/__SOLLEQT/solleqt.com/www/index.html",
+		"/Users/Alex/Google Drive/__SOLLEQT/solleqt.com/www/my_styles/css/my.css",
+		"/Users/Alex/Google Drive/__SOLLEQT/solleqt.com/www/bootstrap/css/bootstrap.css",
+		"/Users/Alex/Google Drive/__SOLLEQT/BUSINESS SET-UP/solleqt.com/www/index.html",
+		"/Users/Alex/Google Drive/__SOLLEQT/BUSINESS SET-UP/solleqt.com/www/bootstrap-4/css/bootstrap-reboot.css",
+		"/Users/Alex/Downloads/load-scripts.php",
+		"/Users/Alex/Downloads/index-4.php",
+		"/Users/Alex/Downloads/index-3.php",
+		"/Users/Alex/Downloads/wp-blog-header.php",
+		"/Users/Alex/Downloads/index.php",
+		"/Users/Alex/Desktop/untitled folder/functions.php",
+		"/Users/Alex/Desktop/untitled folder/style.css",
+		"/Users/Alex/Downloads/index.html",
+		"/private/var/folders/df/rr592sd900101xxh_463mnlw0000gp/T/fz3temp-2/index.php",
+		"/Users/Alex/Downloads/hestia-child/functions.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 220.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "small_website.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

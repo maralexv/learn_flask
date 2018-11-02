@@ -1,0 +1,22 @@
+
+{%extends "base.html"%}
+
+{%block content%}
+<div class="container-fluid m-2">
+	<h1>Welcome to User Name Check</h1>
+	<p class="lead">Let's see if your User Name is secure...</p>
+	<p>Fill out the form below with a User Name that has these restrictons:</p>
+	<ul class="ml-2">
+		<li>Must have an upper case letter.</li>
+		<li>Must have a lower case letter.</li>
+		<li>Must have a number at the end.</li>
+	</ul>
+	<form class="ml-4" action="{{url_for('report')}}" method="get" accept-charset="utf-8">
+       	<label for="username">User Name
+	       	<input type="text" placeholder="User Name" name="username">
+	    </label>
+	        <input type="submit" class="btn btn-secondary" value="Submit">
+	</form>
+</div>	
+	
+{% endblock %}

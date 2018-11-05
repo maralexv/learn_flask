@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}
+	Home
+{% endblock title %}
+
+{% block content %}
+	<h1>Welcome to The Puppy Survey</h1>
+	<form method="POST">
+		{{form.hidden_tag()}}
+		{{form.breed.label}}{{form.breed()}}
+		<br>
+		{{form.neutered.label}}{{form.neutered}}
+		<br>
+		{{form.mood.label}}{{form.mood}}
+		<br>
+		{{form.food.lable}}{{form.food}}
+		<br>
+		Any feedback?
+		{{form.feedback}}
+		<br>
+		{{form.submit()}}
+	</form>
+{% endblock content %}
+

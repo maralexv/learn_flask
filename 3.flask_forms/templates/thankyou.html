@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}
+	Survey Results
+{% endblock title %}
+
+{% block content %}
+<h1>Here are the results of your survey</h1>
+<ul>
+	<li>Breed: {{session['breed']}}</li>
+	<li>Mood: {{session["mood"]}}</li>
+	<li>Nuetred: {{session['nuetred']}}</li>
+	<li>Food: {{session['food']}}</li>
+	<li>Feedback: {{session['feedback']}}</li>
+</ul>
+{% endblock content %}

@@ -1,0 +1,10 @@
+Terminal commands for FLASK MIGRATE :
+(NB: After inporting Migrate from flask_migrate into model python file adn initialising Migratebin that file)
+
+1. export FLASK_APP=modelapp2.py  # ==> Connect Migrate with model file
+
+2. flask db init  # ==> Initiate the DB
+
+3. flask db migrate -m "create mytable1"  # ==> create migration (with notes/comment in "")
+
+4. flask db upgrade   # ==>  do the migration

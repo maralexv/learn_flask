@@ -34,10 +34,5 @@ class MyDB(db.Model):
 		return f"ID={self.id}, name={self.name}, age={self.age}"
 
 
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
-
-
 if __name__ == '__main__':
     app.run()

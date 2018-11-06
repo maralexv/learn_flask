@@ -14,6 +14,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 Migrate(app, db)
 
+
 class Puppy(db.Model):
 
 	id = db.Column(db.Ineger, primary_key=True)
@@ -28,9 +29,9 @@ class Puppy(db.Model):
 
 	def __repr__(self):
 		if self.owner:
-			return f"{self.id}| name: {self.name} | owner: {self.owner.name}; "
+			return f"{self.id}-name: {self.name} | owner: {self.owner.name}; "
 		else:
-			return f"{self.id}| name: {self.name} | has no owner; "
+			return f"{self.id}-name: {self.name} | has no owner; "
 
 	def reprot_toys(self):
 		print("Here are my toys:")
@@ -39,12 +40,34 @@ class Puppy(db.Model):
 
 
 class Toy(db.Model):
-	pass
+
+	id = db.Column(db.Integer, primary_key=True)
+	itemname = db.Column(db.Text)
+	puppy_id = db.Column(db.Integer, db.ForeignKey('Puppy.id'))
+
+	def __init__(self, itemname, puppy_id):
+		self.itemname = itemname
+		self.puppy_id = puppy_id
+
+
+	def __repr__(self):
+		return f"{self.id}-{self.itemname} ;"
+
 
 class Owner(db.Model):
-	pass
+	
+	id = db.Column(db.Integer, primary_key=True)
+	name = bd.Column(db.Text)
+	puppy_id = db.Column(db.Integer, db.ForeignKey('Puppy.id'))
 
 
+	def __init__(self, name, puppy_id):
+		self.name = name
+		self.puppy_id = puppy_id
+
+
+	def __repr__(self):
+		return f"{self.id}-{self.name} ;"
 
 
 

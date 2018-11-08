@@ -17,13 +17,14 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+os.path.join(basedir, 'data
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
-Migrate(app.db)
+Migrate(app, db)
 
 ################################
 #####        MODELS        #####
 ################################
 
 class Puppy(db.Model):
+
     __tablename__ = 'puppies'
 
     id = db.Column(db.Integer, primary_key=True)
@@ -59,7 +60,7 @@ def list_pup():
     puppies = Puppy.query.all()
     return render_template('list.html', puppies=puppies)
 
-@app.route('/delete', methids = ['GET', 'POST'])
+@app.route('/delete', methods = ['GET', 'POST'])
 def del_pup():
     form = DelForm()
     if form.validate_on_submit():

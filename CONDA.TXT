@@ -1,0 +1,36 @@
+----- CONDA VIRTUAL ENVIRONMENT MANAGER -----
+
+** Dependancies: requires Anaconda to be installed. **
+
+Basic Use:
+
+1. Create virtual environment:
+$ conda create --name [python=3.7]
+
+'python=3.7' parameter means this environment will use the python 3.7 interpreter
+
+2. Activate virtual environment:
+$ source activate name
+
+3. Deactivate virtual environment:
+$ source deactivate name
+
+4. Save the environment requirements:
+(name) $ pip freeze > requirements.txt
+
+5. List all the packages installed in virtual environment:
+(name) $ pip list
+(name) $ conda list
+
+6. Install packages in env with requirements.txt:
+(name) $ pip install -r requirements.txt
+
+7. Remove virtual environment:
+$ conda env remove -n name
+
+8. List all the virtual environments:
+$ conda info --envs
+
+9. Check Conda version:
+$ conda -V
+$ conda --version

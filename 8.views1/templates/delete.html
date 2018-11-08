@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% set active_page="Remove Puppy" %}
+{% block title %}{{active_page}}{% endblock title %}
+{% block content %}
+<div class="container-fluid mx-auto">
+  <div class="jumbotron">
+    <h4>Has your puppy got adopted?</h4>
+    <p></p>
+    <h1 class="mx-4" style="color: red">If so, please remove it form our database!</h1>
+    <form class="mx-4 p-2" method="POST">
+      {{form.hidden_tag()}}
+      {{form.id.label}}<br>{{form.id}}<br>
+      {{form.submit()}}
+    </form>
+  </div>
+
+</div>
+{% endblock content %}

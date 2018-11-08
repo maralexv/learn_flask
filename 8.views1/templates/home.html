@@ -1,10 +1,11 @@
 {% extends "base.html" %}
-{% set active_page = "home" %}
-{% block nav %}{% endblock nav %}
+{% set active_page="Home" %}
+{% block title %}{{ active_page }}{% endblock title %}
 {% block content %}
 <div class="container-fluid mx-auto">
-  <h3>Welcome to the Puppy Adoption Site</h3>
-
+  <div class="jumbotron">
+   <h3>Welcome to the Puppy Adoption Site</h3>
+  </div>
 
 </div>
 {% endblock content %}

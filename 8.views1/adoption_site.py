@@ -34,7 +34,7 @@ class Puppy(db.Model):
         self.name = name
 
     def __repr__(self):
-        return f"Puppy:{self.name}"
+        return f"Puppy: {self.name}"
 
 ########################################
 ####  VIEW FUNCTIONS -- HAVE FOMRS  ####

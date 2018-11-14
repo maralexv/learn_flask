@@ -1,0 +1,12 @@
+/*
+Terminal commands for FLASK MIGRATE :
+(NB: After importing Migrate from flask_migrate into model python file and initialising Migrate in that file)
+*/
+
+1. export FLASK_APP=app.py  # ==> Connect Migrate with model (app) file
+
+2. flask db init  # ==> Initiate the DB
+
+3. flask db migrate -m "/comment/"  # ==> create migration (with notes/comment in "")
+
+4. flask db upgrade   # ==>  perform the actual migration

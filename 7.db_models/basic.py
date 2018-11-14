@@ -18,7 +18,7 @@ moses = Puppy.query.filter_by(name='Moses').first() # .first methd grabs the fir
 print(moses)
 
 # CREATE OWNER OBJECT
-alex = Owner('Alex', moses.id) # moses.id -- here the .id methid grabs the id of the puppy form the puppies table
+alex = Owner('Alex', moses.id) # moses.id -- here the .id method grabs the id of the puppy form the puppies table
 
 # GIVE MOSES SOME toys
 toy1 = Toy('Plastic bown', moses.id)

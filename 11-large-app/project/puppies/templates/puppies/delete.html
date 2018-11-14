@@ -11,7 +11,7 @@
       <!-- This hidden_tag is a CSRF security feature -->
       {{form.hidden_tag()}}
       <!-- The actual form  -->
-      {{form.id.label}}{{form.id}}<br>
+      {{form.id.label}}{{form.id()}}
       {{form.submit()}}
     </form>
   </div>

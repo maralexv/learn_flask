@@ -9,8 +9,7 @@
     <form  class="mx-4 p-2" method="POST">
       <!-- This hidden_tag is a CSRF security feature -->
       {{form.hidden_tag()}}
-      <!-- The actual form  -->
-      {{form.name.label}}{{form.name}}<br>
+      {{form.name.label}} {{form.name()}}
       {{form.submit()}}
     </form>
   </div>

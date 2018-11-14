@@ -3,7 +3,7 @@ from project import db  # db shoukd be set-up inside __init__.py uner 'project' 
 
 class Puppy(db.Model):
 
-    __tablename__ = 'pups'
+    __tablename__ = 'puppies'
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.Text)
@@ -26,7 +26,7 @@ class Owner(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.Text)
-    pup_id = db.Column(db.Integer, db.ForeignKey('pups.id'))
+    pup_id = db.Column(db.Integer, db.ForeignKey('puppies.id'))
 
     def __init__(self, name, pup_id):
         self.name = name

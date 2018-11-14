@@ -4,17 +4,16 @@ from project import db
 from project.models import Owner
 from project.owners.forms import AddForm
 
-owners_blueprint = Blueprint('owners', __name__, \
-                        tamplate_folder = 'tamplates/owners')
+owners_blueprint = Blueprint('owners', __name__, template_folder = 'templates/owners')
 
 
 @owners_blueprint.route('/add', methods = ['GET', 'POST'])
 def add():
-    form = AddOwnerForm()
+    form = AddForm()
     if form.validate_on_submit():
+        name = form.name.data
         id = form.id.data
         pup = Puppy.query.get(id)
-        name = form.name.data
         # add new owner to the db
         owner = Owner(name, pup.id)
         db.session.add(owner)

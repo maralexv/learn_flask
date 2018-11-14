@@ -2,11 +2,10 @@
 from flask import Blueprint, render_template, redirect, url_for, flash
 from project import db
 from project.models import Puppy
-from project.owners.forms import AddForm, DelForm
+from project.puppies.forms import AddForm, DelForm
 
+puppies_blueprint = Blueprint('puppies', __name__, template_folder = 'templates/puppies')
 
-puppies_blueprint = Blueprint('puppies', __name__, \
-                        tamplate_folder = 'tamplates/puppies')
 
 @puppies_blueprint.route('/add', methods = ['GET', 'POST'])
 def add():
@@ -21,13 +20,13 @@ def add():
 
 
 @puppies_blueprint.route('/list')
-def list_pup():
+def list():
     puppies = Puppy.query.all()
     return render_template('list.html', puppies=puppies)
 
 
 @puppies_blueprint.route('/delete', methods = ['GET', 'POST'])
-def del():
+def delete():
     form = DelForm()
     if form.validate_on_submit():
         id = form.id.data

@@ -42,10 +42,10 @@
           {% set a='class="nav-item nav-link active"' %}
           {% set na='class="nav-item nav-link"' %}
           <a class="nav-item nav-link" href="{{ url_for('home') }}">Home</a>
-          <a class="nav-item nav-link" href="{{ url_for('add_pup') }}">Add a Puppy</a>
-          <a class="nav-item nav-link" href="{{ url_for('del_pup') }}">Remove Puppy</a>
-          <a class="nav-item nav-link" href="{{ url_for('list_pup') }}">List of puppies</a>
-          <a class="nav-item nav-link" href="{{ url_for('add_owner') }}">Add an Owner</a>
+          <a class="nav-item nav-link" href="{{ url_for('puppies.add') }}">Add a Puppy</a>
+          <a class="nav-item nav-link" href="{{ url_for('puppies.delete') }}">Remove Puppy</a>
+          <a class="nav-item nav-link" href="{{ url_for('puppies.list') }}">List of puppies</a>
+          <a class="nav-item nav-link" href="{{ url_for('owners.add') }}">Add an Owner</a>
         </div>
       </div>
     </nav>

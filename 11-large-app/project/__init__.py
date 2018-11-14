@@ -19,5 +19,6 @@ Migrate(app, db)
 # NEED TO CONNECT BLUEPRINTS **AFTER** CAllING db
 from project.puppies.views import puppies_blueprint
 from project.owners.views import owners_blueprint
+
 app.register_blueprint(puppies_blueprint, url_prefix = '/puppies')
 app.register_blueprint(owners_blueprint, url_prefix = '/owners')

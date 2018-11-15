@@ -4,7 +4,7 @@ from project import db
 from project.models import Puppy
 from project.puppies.forms import AddForm, DelForm
 
-puppies_blueprint = Blueprint('puppies', __name__, template_folder = 'templates/puppies')
+puppies_blueprint = Blueprint('puppies', __name__, template_folder='templates/puppies')
 
 
 @puppies_blueprint.route('/add', methods = ['GET', 'POST'])

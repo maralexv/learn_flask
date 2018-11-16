@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% set active_page = "register" %}
+{% block title %}Register{% endblock title %}
+
+{% block content %}
+
+<div class="jumbotron">
+  <form method="POST">
+    {{form.hidden_tag()}}
+    {{form.useremail.label}}{{form.useremail()}}<br>
+    {{form.username.label}}{{form.username()}}<br>
+    {{form.userpassword.label}}{{form.userpassword()}}<br>
+    {{form.passconfirm.label}}{{form.passconfirm()}}<br>
+    {{form.tnc.label}}{{form.tnc()}}
+    {{form.submit()}}
+  </form>
+</div>
+
+{% endblock content %}

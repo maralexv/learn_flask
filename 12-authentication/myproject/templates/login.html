@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% set active_page = "login" %}
+{% block title %}Login{% endblock title %}
+
+{% block content %}
+
+  <div class="jumbotron">
+    <form method="POST">
+      {{form.hidden_tag()}}
+      {{form.useremail.label}}{{form.useremail()}}<br>
+      {{form.userpassword.label}}{{form.userpassword()}}<br>
+      {{form.submit()}}
+    </form>
+  </div>
+
+{% endblock content %}

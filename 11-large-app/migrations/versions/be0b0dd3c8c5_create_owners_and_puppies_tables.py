@@ -1,8 +1,8 @@
-"""create owners and puppies
+"""create owners and puppies tables
 
-Revision ID: e4696250a45d
+Revision ID: be0b0dd3c8c5
 Revises: 
-Create Date: 2018-11-14 20:34:10.879977
+Create Date: 2018-11-16 06:44:43.310284
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'e4696250a45d'
+revision = 'be0b0dd3c8c5'
 down_revision = None
 branch_labels = None
 depends_on = None

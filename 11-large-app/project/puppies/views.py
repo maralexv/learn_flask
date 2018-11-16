@@ -1,5 +1,5 @@
 # views.py under 'puppies' dir
-from flask import Blueprint, render_template, redirect, url_for, flash
+from flask import Flask, Blueprint, render_template, redirect, url_for, flash
 from project import db
 from project.models import Puppy
 from project.puppies.forms import AddForm, DelForm

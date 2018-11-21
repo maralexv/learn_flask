@@ -31,10 +31,10 @@ def login():
 
     if request.method == 'POST' and form.validate_on_submit():
         user = User.query.filter_by(useremail=form.useremail.data).first()
-        if user.check_password(form.userpassword.data) and user is not none:
+        if user.check_password(form.userpassword.data) and user is not None:
             login_user(user)
             flash("Login Successful!")
-            next = request.args.geet('next')
+            next = request.args.get('next')
             if next == None or not next[0]=='/':
                 next = url_for('welcome_user')
             return redirect(next)

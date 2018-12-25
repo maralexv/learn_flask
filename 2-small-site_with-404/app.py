@@ -19,8 +19,8 @@ def thank_you():
 	return render_template("thank_you.html", first=first, last=last)
 
 
-@app.route("/user/<name>")
-def user(name="Alex"):
+@app.route("/user/<string:name>/")
+def user(name="Name"):
 	return render_template("user.html", name=name)
 
 
